@@ -14,6 +14,10 @@ public class Mail implements Cloneable {
 	private String appellation;
 	private String context;
 	private String tail;
+	
+	public Mail(){
+		
+	}
 
 	public Mail(AdvTemplate advTemplate) {
 		this.subject = advTemplate.getAdvSubject();
